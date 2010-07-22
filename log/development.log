@@ -1,0 +1,336 @@
+/!\ FAILSAFE /!\  2010-07-22 14:26:04 +0700
+  Status: 500 Internal Server Error
+  no driver for sqlite3 found
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/sqlite3-ruby-1.2.5-x86-mingw32/lib/sqlite3/database.rb:627:in `load_driver'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/sqlite3-ruby-1.2.5-x86-mingw32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    c:/Ruby191/lib/ruby/1.9.1/monitor.rb:190:in `mon_synchronize'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-22 14:35:27) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 228ms (View: 30, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (109.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (88.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100722080056)
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100722080056')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 15:05:25) [GET]
+
+ActionController::RoutingError (No route matches "/demo_app" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 15:05:30) [GET]
+
+ActionController::RoutingError (No route matches "/User" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-22 15:06:53) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 2079ms (View: 2071, DB: 1) | 200 OK [http://localhost/Users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-22 15:07:03) [GET]
+Rendering template within layouts/users
+Rendering users/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-22 15:07:11) [POST]
+  Parameters: {"authenticity_token"=>"pRbcJncZ+pyPkhr1dbrtMQ4zlSQb7h/f2SGX0Xef1gQ=", "user"=>{"name"=>"Ninh", "email"=>"blackryan_hxn@yahoo.com"}, "commit"=>"Create"}
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES('Ninh', 'blackryan_hxn@yahoo.com', '2010-07-22 08:07:11', '2010-07-22 08:07:11')[0m
+Redirected to http://localhost:3000/users/1
+Completed in 104ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-22 15:07:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 27ms (View: 18, DB: 1) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-22 15:07:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 35ms (View: 25, DB: 0) | 200 OK [http://localhost/users/1/edit]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-22 15:07:22) [GET]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 17ms (View: 7, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-22 15:07:27) [GET]
+Rendering template within layouts/users
+Rendering users/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-22 15:07:36) [POST]
+  Parameters: {"authenticity_token"=>"pRbcJncZ+pyPkhr1dbrtMQ4zlSQb7h/f2SGX0Xef1gQ=", "user"=>{"name"=>"ha", "email"=>"hattt08@saigontech.edu.vn"}, "commit"=>"Create"}
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES('ha', 'hattt08@saigontech.edu.vn', '2010-07-22 08:07:36', '2010-07-22 08:07:36')[0m
+Redirected to http://localhost:3000/users/2
+Completed in 131ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-22 15:07:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-22 15:07:38) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100722080056)
+Migrating to CreateMicroposts (20100722085411)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "microposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar(255), "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100722085411')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("microposts")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 15:56:31) [GET]
+
+ActionController::RoutingError (No route matches "/Micropost" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 15:56:33) [GET]
+
+ActionController::RoutingError (No route matches "/Micropost" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-22 15:56:36) [GET]
+
+ActionController::RoutingError (No route matches "/Micropost" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-22 15:56:40) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 57ms (View: 52, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-07-22 15:56:59) [GET]
+  [4;35;1mMicropost Load (1.0ms)[0m   [0mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 32ms (View: 23, DB: 1) | 200 OK [http://localhost/microposts]
+
+
+Processing MicropostsController#new (for 127.0.0.1 at 2010-07-22 15:57:01) [GET]
+Rendering template within layouts/microposts
+Rendering microposts/new
+Completed in 30ms (View: 21, DB: 0) | 200 OK [http://localhost/microposts/new]
+
+
+Processing MicropostsController#create (for 127.0.0.1 at 2010-07-22 15:57:11) [POST]
+  Parameters: {"authenticity_token"=>"pRbcJncZ+pyPkhr1dbrtMQ4zlSQb7h/f2SGX0Xef1gQ=", "micropost"=>{"content"=>"i love you", "user_id"=>"Ninh"}, "commit"=>"Create"}
+  [4;36;1mMicropost Create (1.0ms)[0m   [0;1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES('i love you', 0, '2010-07-22 08:57:11', '2010-07-22 08:57:11')[0m
+Redirected to http://localhost:3000/microposts/1
+Completed in 112ms (DB: 1) | 302 Found [http://localhost/microposts]
+
+
+Processing MicropostsController#show (for 127.0.0.1 at 2010-07-22 15:57:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMicropost Load (1.0ms)[0m   [0mSELECT * FROM "microposts" WHERE ("microposts"."id" = 1) [0m
+Rendering template within layouts/microposts
+Rendering microposts/show
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://localhost/microposts/1]
+
+
+Processing MicropostsController#edit (for 127.0.0.1 at 2010-07-22 15:57:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMicropost Load (0.0ms)[0m   [0;1mSELECT * FROM "microposts" WHERE ("microposts"."id" = 1) [0m
+Rendering template within layouts/microposts
+Rendering microposts/edit
+Completed in 41ms (View: 29, DB: 0) | 200 OK [http://localhost/microposts/1/edit]
+
+
+Processing MicropostsController#update (for 127.0.0.1 at 2010-07-22 15:57:20) [PUT]
+  Parameters: {"authenticity_token"=>"pRbcJncZ+pyPkhr1dbrtMQ4zlSQb7h/f2SGX0Xef1gQ=", "micropost"=>{"content"=>"i love you", "user_id"=>"1"}, "commit"=>"Update", "id"=>"1"}
+  [4;35;1mMicropost Load (0.0ms)[0m   [0mSELECT * FROM "microposts" WHERE ("microposts"."id" = 1) [0m
+  [4;36;1mMicropost Update (1.0ms)[0m   [0;1mUPDATE "microposts" SET "user_id" = 1, "updated_at" = '2010-07-22 08:57:20' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/microposts/1
+Completed in 114ms (DB: 1) | 302 Found [http://localhost/microposts/1]
+
+
+Processing MicropostsController#show (for 127.0.0.1 at 2010-07-22 15:57:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMicropost Load (1.0ms)[0m   [0mSELECT * FROM "microposts" WHERE ("microposts"."id" = 1) [0m
+Rendering template within layouts/microposts
+Rendering microposts/show
+Completed in 59ms (View: 5, DB: 1) | 200 OK [http://localhost/microposts/1]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-07-22 15:57:24) [GET]
+  [4;36;1mMicropost Load (1.0ms)[0m   [0;1mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 19ms (View: 8, DB: 1) | 200 OK [http://localhost/microposts]
+
+
+Processing MicropostsController#new (for 127.0.0.1 at 2010-07-22 15:57:29) [GET]
+Rendering template within layouts/microposts
+Rendering microposts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/microposts/new]
+
+
+Processing MicropostsController#create (for 127.0.0.1 at 2010-07-22 15:57:32) [POST]
+  Parameters: {"authenticity_token"=>"pRbcJncZ+pyPkhr1dbrtMQ4zlSQb7h/f2SGX0Xef1gQ=", "micropost"=>{"content"=>"asdf", "user_id"=>"2"}, "commit"=>"Create"}
+  [4;35;1mMicropost Create (1.0ms)[0m   [0mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES('asdf', 2, '2010-07-22 08:57:32', '2010-07-22 08:57:32')[0m
+Redirected to http://localhost:3000/microposts/2
+Completed in 140ms (DB: 1) | 302 Found [http://localhost/microposts]
+
+
+Processing MicropostsController#show (for 127.0.0.1 at 2010-07-22 15:57:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMicropost Load (1.0ms)[0m   [0;1mSELECT * FROM "microposts" WHERE ("microposts"."id" = 2) [0m
+Rendering template within layouts/microposts
+Rendering microposts/show
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/microposts/2]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-07-22 15:57:34) [GET]
+  [4;35;1mMicropost Load (1.0ms)[0m   [0mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 20ms (View: 10, DB: 1) | 200 OK [http://localhost/microposts]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
